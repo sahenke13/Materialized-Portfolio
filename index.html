@@ -1,159 +1,209 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Materialized Portfolio</title>
-     <!-- FontAwesome -->
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   
+
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <style>
+        header {
+            background: url("./img/minneapolis.jpg");
+            background-size: cover;
+            background-position: center;
+            min-height: 600px;
+        }
+
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4vw;
+        }
+
+        @media screen and (max-width: 670px) {
             header {
-                background: url("./img/minneapolis.jpg");
-                background-size: cover;
-                background-position: center;
-                min-height: 800px;
+                min-height: 400px
             }
-            .section{
-                padding-top: 4vw;
-                padding-bottom: 4vw;
-            }
-    
-            @media screen and (max-width: 670px) {
-                header {
-                    min-height: 400px
-                }
-            }
+        }
     </style>
 </head>
+
 <body>
     <!-- header -->
     <header>
         <nav class="nav-wrapper transparent">
             <div class="container">
-                <a href="#" class="brand-logo black-text">Steven Henke</a>
+                <a href="#" class="brand-logo white-text">Steven Henke</a>
                 <a href="#" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons black-text">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#aboutMe" class="grey-text">About Me</a></li>
-                    <li><a href="#portfolio" class="grey-text">Portfolio</a></li>
-                    <li><a href="#contact" class="grey-text">Contact</a></li>
+                    <li><a href="#aboutMe" class="white-text ">About Me</a></li>
+                    <li><a href="#portfolio" class="white-text">Portfolio</a></li>
+                    <li><a href="#contact" class="whit-text">Contact</a></li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
-                        <li><a href="#aboutMe">About Me</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <!-- about me -->
-    <section class="container section scrollspy" id = "aboutMe">
+    <section class="container section scrollspy" id="aboutMe">
         <div class="row">
-        <div class="col s12 l5">
-            <h2 class="grey-text text-darken-2">About Me</h2>
-            <p>I am a Full Stack Web Developer with a natural curiosity and desire to create within both the digital and physical realms. A strong team player, I pride myself on my ability to effectively communicate technical concepts across a variety of skill levels, which is something I developed from my years within a technical sales and support role.</p>
+            <div class="col s12 l5">
+                <h2 class="grey-text text-darken-2">About Me</h2>
+                <p>I am a Full Stack Web Developer with a natural curiosity and desire to create within both the
+                    digital and physical realms. A strong team player, I pride myself on my ability to effectively
+                    communicate technical concepts across a variety of skill levels, which is something I developed
+                    from my years within a technical sales and support role.</p>
 
-            <p>I have a civil engineering background including a Bachelor of Science from the University of Minnesota, and I’m recently graduated from the Full Stack Web Development Bootcamp through the University of Minnesota (program to be completed in December 2018). Additionally, I am proficient in HTML, CSS, Javascript, BootStrap, Materialize, Jquery, command line, Node.js, MongoDB, MySQL, Java, Git and GitHub, and I am always eager to learn more.</p>
-            
-            <p>When I am not working on further enhancing my coding craft, you can find me enjoying time with my family, the wood shop, designing and building functional home design products or in nature, enjoying the great outdoors.</p>
+                <p>I have a civil engineering background including a Bachelor of Science from the University of
+                    Minnesota, and I’m recently graduated from the Full Stack Web Development Bootcamp through the
+                    University of Minnesota (program to be completed in December 2018). Additionally, I am proficient
+                    in HTML, CSS, Javascript, BootStrap, Materialize, Jquery, command line, Node.js, MongoDB, MySQL,
+                    Java, Git and GitHub, and I am always eager to learn more.</p>
+
+                <p>When I am not working on further enhancing my coding craft, you can find me enjoying time with my
+                    family, the wood shop, designing and building functional home design products or in nature,
+                    enjoying the great outdoors.</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <img src="./img/StevenCCE.jpg" alt="steven" class="responsive-img">
+            </div>
         </div>
-        <div class="col s12 l5 offset-l2">
-            <img src="./img/StevenCCE.jpg" alt="steven" class="responsive-img">
-        </div>
-    </div>
 
     </section>
-     <!-- parllax -->
-     <div class="parallax-container">
-            <div class="parallax">
-                <img src="./img/RMNP2.jpg" alt="RMNP" class="responsive-img">
-            </div>
+    <!-- parllax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./img/RMNP2.jpg" alt="RMNP" class="responsive-img">
+        </div>
     </div>
+
     <!-- Portfolio -->
-        <section class="container section scrollspy" id="portfolio">
-            <div class="row">
-                <div class="col s12 l12 left-align">
-                    <h2>Portfolio</h2>
+    <section class="container section scrollspy" id="portfolio">
+        <div class="row">
+            <div class="col s12 l12 left-align">
+                <h2>Portfolio</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col s12 l4">
+                <div class="card medium">
+                    <div class="card-image responsive-image">
+                        <img src="./img/images/Tombstone-Val-Kilmer.png" alt="word guess">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Find a Friend</span>
+                        <p>A Tombstone themed, Javascript based Word Guess Game. Who's your huckleberry?</p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./img/yourMatch.PNG" alt="FriendFinder">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">Find a Friend</span>
-                            <p>An application using blah blah blah</p>
-                        </div>
+            <div class="col s12 l4">
+                <div class="card medium">
+                    <div class="card-image responsive-image">
+                        <img src="./img/Drink-order.PNG" alt="FriendFinder">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Drink Order</span>
+                        <p>An application utilizing the full MERN stack, developed to facilitate the development and
+                            pricing of Drink Menus in upscale minneapolis restaurants</p>
                     </div>
                 </div>
-                <div class="col s12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./img/yourMatch.PNG" alt="FriendFinder">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">Find a Friend</span>
-                            <p>An application using blah blah blah</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./img/yourMatch.PNG" alt="FriendFinder">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">Find a Friend</span>
-                            <p>An application using blah blah blah</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./img/yourMatch.PNG" alt="FriendFinder">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">Find a Friend</span>
-                            <p>An application using blah blah blah</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./img/yourMatch.PNG" alt="FriendFinder">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">Find a Friend</span>
-                            <p>An application using blah blah blah</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./img/yourMatch.PNG" alt="FriendFinder">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">Find a Friend</span>
-                            <p>An application using blah blah blah</p>
-                        </div>
-                    </div>
-                </div>
-               
             </div>
-               
-            
-        </section>
+            <div class="col s12 l4">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="./img/Date-Night.PNG" alt="FriendFinder">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Date Night</span>
+                        <p>An application making several API calls to Google, and Eventful, in order to create the
+                            perfect date
+                            night.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <div class="card medium">
+                    <div class="card-image responsive-image">
+                        <img src="./img/yourMatch.PNG" alt="FriendFinder">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Find a Friend</span>
+                        <p>An application using RESTFUL Api calls, to help you find a friend.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col s12 l4">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="./img/images/giphyAppScreenShot.PNG" alt="Giphy">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Find a Friend</span>
+                        <p>An application making API calls to the giphy library, allowing one to search for and save
+                            favorite giphs. This application also uses Jquery</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="./img/gameOfThronesBackGroundOption1.jpg" alt="RPG">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Game of Thrones RPG</span>
+                        <p>A Javascript application(game) utilizing Jquery and user input for game play.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+
+    </section>
+    <!-- parllax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./img/Sunrise.JPG" alt="RMNP" class="responsive-img">
+        </div>
+    </div>
+    <!-- contact -->
+    <section class="container section scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2>Contact</h2>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <p>Phone: 612-998-4359</p>
+                <p>Email: shenke13@gmail.com</p>
+                <p>LinkedIn: www.linkedin.com/in/steven-henke</p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
 
 
 
@@ -164,12 +214,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $(".sidenav").sidenav();
             $(".parallax").parallax();
+            $(".scrollspy").scrollSpy();
 
 
 
         })</script>
 </body>
+
 </html>
