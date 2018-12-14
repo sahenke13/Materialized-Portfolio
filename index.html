@@ -25,10 +25,17 @@
             padding-top: 4vw;
             padding-bottom: 4vw;
         }
+        .navItem{
+            text-shadow: 1px 1px white;
+        }
 
         @media screen and (max-width: 670px) {
             header {
                 min-height: 400px
+            }
+            #mainTitle{
+                font-size: 1.5em;
+
             }
         }
     </style>
@@ -39,14 +46,14 @@
     <header>
         <nav class="nav-wrapper transparent">
             <div class="container">
-                <a href="#" class="brand-logo indigo-text lighten-1-text">STEVEN A. HENKE</a>
+                <a href="#" class="brand-logo indigo-text lighten-1-text" id = "mainTitle">STEVEN HENKE</a>
                 <a href="#" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons black-text">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#aboutMe" class="indigo-text lighten-1-text ">About Me</a></li>
-                    <li><a href="#portfolio" class="indigo-text lighten-1-text">Portfolio</a></li>
-                    <li><a href="#contact" class="indigo-text lighten-1-text">Contact</a></li>
+                    <li><a href="#aboutMe" class="indigo-text lighten-1-text navItem">About Me</a></li>
+                    <li><a href="#portfolio" class="indigo-text lighten-1-text navItem">Portfolio</a></li>
+                    <li><a href="#contact" class="indigo-text lighten-1-text navItem">Contact</a></li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
                     <li><a href="#aboutMe">About Me</a></li>
